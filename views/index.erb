@@ -2,13 +2,59 @@
 <html>
   <head>
     <title>Learning Sinatra!</title>
+    <link href="<%= url('/mystyle.css') %>" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
 
   <body>
-    <h1>Welcome to my sinatra test!</h1>
-    <h3>It's <%= now %></h3>
-    <p>
-      My name is <%= myname %>
-    </p>
+    <div class="content">
+      <h1>Welcome to my sinatra test!</h1>
+      <h3>This was programmed by <%= myname %></h3>
+      <p>
+        Keep Scrolling Down!
+      </p>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-12 image">
+        <h2>Fly me to the moon...</h2>
+      </div>
+      <div class="col-md-6 image">
+        <!-- nothing -->
+      </div>
+      <div class="col-md-6 moon image">
+        <img src="cartoon-moon.png" />
+      </div>
+      <br />
+      <div class="col-md-6 rocket image">
+        <img src="rocket.png" />
+      </div>
+    </div>
+
+  <br />
+
+
+  <div class="row">
+    <div class="col-md-12 image">
+      <h2>Let me play among the stars...</h2>
+    </div>
+    <div class="col-md-2">
+    </div>
+
+    <div class="col-md-8 image">
+      <img src="stars.png" />
+    </div>
+
+    <div class="col-md-2">
+
+    </div>
+  </div>
+
+  <div class="link">
+    <h3><a href="/song">The Song</a></h3>
+  </div>
+
+
   </body>
 </html>

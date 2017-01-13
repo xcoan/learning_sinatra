@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  /* The image used */
+  background-image: url(sinatra.jpg);
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div  {
+  background:#7f7f7f;
+  background:rgba(255,255,255,0.5);
+  margin: 0;
+}
+
+.content{
+  /* Height and width fallback for older browsers. */
+  height: 100%;
+  width: 100%;
+
+  /* Set the height to match that of the viewport. */
+  height: 100vh;
+
+  /* Set the width to match that of the viewport. */
+  width: 100vw;
+}
+
+.image {
+  background:rgba(0,0,0,0);
+}
+
+.moon img {
+  height: 50vh;
+}
+
+.rocket img {
+  height: 25vh;
+}
